@@ -1,0 +1,28 @@
+2022-0609 21:05:44 DEBUG    word_embeds.weight: torch.Size([5168, 100]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.weight_ih_l0: torch.Size([400, 100]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.weight_hh_l0: torch.Size([400, 100]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.bias_ih_l0: torch.Size([400]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.bias_hh_l0: torch.Size([400]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.weight_ih_l0_reverse: torch.Size([400, 100]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.weight_hh_l0_reverse: torch.Size([400, 100]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.bias_ih_l0_reverse: torch.Size([400]), require_grad=True
+2022-0609 21:05:44 DEBUG    lstm.bias_hh_l0_reverse: torch.Size([400]), require_grad=True
+2022-0609 21:05:44 DEBUG    hidden2tag.weight: torch.Size([4, 200]), require_grad=True
+2022-0609 21:05:44 DEBUG    hidden2tag.bias: torch.Size([4]), require_grad=True
+2022-0609 21:05:44 DEBUG    crf.start_transitions: torch.Size([4]), require_grad=True
+2022-0609 21:05:44 DEBUG    crf.end_transitions: torch.Size([4]), require_grad=True
+2022-0609 21:05:44 DEBUG    crf.transitions: torch.Size([4, 4]), require_grad=True
+2022-0609 21:07:10 DEBUG    epoch 0-step 100 loss: 25.623723
+2022-0609 21:08:40 DEBUG    epoch 0-step 200 loss: 12.332136
+2022-0609 21:10:04 DEBUG    epoch 0-step 300 loss: 9.139532
+2022-0609 21:11:27 DEBUG    epoch 0-step 400 loss: 7.439922
+2022-0609 21:12:55 DEBUG    epoch 0-step 500 loss: 6.377019
+2022-0609 21:14:18 DEBUG    epoch 0-step 600 loss: 5.547135
+2022-0609 21:15:31 INFO     precision: 0.924032
+2022-0609 21:15:31 INFO     recall: 0.917839
+2022-0609 21:15:31 INFO     fscore: 0.920925
+2022-0609 21:15:31 INFO     model has been saved in  ./save/model_epoch0.pkl
+2022-0609 21:17:09 DEBUG    epoch 1-step 100 loss: 4.403736
+2022-0609 21:18:45 DEBUG    epoch 1-step 200 loss: 4.165821
+2022-0609 21:20:19 DEBUG    epoch 1-step 300 loss: 3.955666
+2022-0609 21:21:59 DEBUG    epoch 1-step 400 loss: 3.812067
