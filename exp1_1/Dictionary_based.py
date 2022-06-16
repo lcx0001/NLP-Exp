@@ -96,7 +96,8 @@ def load_dict(path):
 if __name__ == '__main__':
     words = load_dict('dict.txt')
     max_len = max(map(len, [word for word in words]))
-    print(words)
+    # print(words)
+    print(max_len)
     # test
     tokenizer = Tokenizer(words, max_len)
     texts = [
