@@ -96,13 +96,16 @@ def load_dict(path):
 if __name__ == '__main__':
     words = load_dict('dict.txt')
     max_len = max(map(len, [word for word in words]))
-
+    print(words)
     # test
     tokenizer = Tokenizer(words, max_len)
     texts = [
         '研究生命的起源',
         '无线电法国别研究',
-        '人要是行，干一行行一行，一行行行行行，行行行干哪行都行。'
+        '人要是行，干一行行一行，一行行行行行，行行行干哪行都行。',
+        '语言及开发类课程进两个系统均可。',
+        '南京市长江大桥'
+
     ]
     for text in texts:
         # 前向最大匹配
